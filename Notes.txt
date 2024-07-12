@@ -1,0 +1,10 @@
+Die Hauptverkehrszeit geht üblicherweise von 6 bis 9 Uhr (Früh-HVZ) und von 16 bis 19 Uhr (Spät-HVZ).
+
+Unsere Taktung:
+04 bis 06 -> 5 min
+06 bis 09 -> 1,5 min
+09 bis 16 -> 3 min
+16 bis 19 -> 1,5 min
+19 bis 26 -> 5 min
+26 bis 28 -> unendlich
+28 bis 30 -> 5 min
