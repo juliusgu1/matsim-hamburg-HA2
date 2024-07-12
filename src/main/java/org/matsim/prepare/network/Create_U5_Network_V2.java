@@ -21,16 +21,16 @@ public class Create_U5_Network_V2 {
         for (Map<String, String> row : rows) {
             // Extract values from the row
             String station = row.get("Station");
-            String nodeNameStr = row.get("NodeNamen");
+            String nodeNameStr = row.get("NodeName");
             String nodeIdStr = row.get("NodeID");
             String linkNameStr = row.get("LinkName");
             String linkIdStr = row.get("LinkID");
-            String stopFacilityNameStr = row.get("StopFacility");
+            String stopFacilityNameStr = row.get("StopFacilityName");
             String stopNameStr = row.get("StopName");
 
             // Replace with actual coordinates
-            double x = 0.0;
-            double y = 0.0;
+            double x = row.get("x");
+            double y = row.get("y");
 
             // Create Node
             Node node = network.getFactory().createNode(Id.createNodeId(nodeIdStr), new Coord(x, y));
