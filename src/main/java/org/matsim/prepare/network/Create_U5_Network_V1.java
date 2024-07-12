@@ -2,24 +2,15 @@ package org.matsim.prepare.network;
 
 import org.matsim.api.core.v01.Coord;
 import org.matsim.api.core.v01.Id;
-import org.matsim.api.core.v01.TransportMode;
-import org.matsim.api.core.v01.network.Link;
 import org.matsim.api.core.v01.network.NetworkFactory;
-import org.matsim.api.core.v01.network.NetworkWriter;
-import org.matsim.api.core.v01.network.Node;
 import org.matsim.core.config.ConfigUtils;
 import org.matsim.core.network.NetworkUtils;
-import org.matsim.core.population.routes.RouteUtils;
 import org.matsim.core.scenario.ScenarioUtils;
 import org.matsim.pt.transitSchedule.api.*;
-import org.matsim.vehicles.MatsimVehicleWriter;
-import org.matsim.vehicles.VehicleType;
 
 import java.nio.file.Paths;
-import java.util.List;
-import java.util.Set;
 
-public class Create_U5_Network {
+public class Create_U5_Network_V1 {
     private static final NetworkFactory networkFactory = NetworkUtils.createNetwork().getFactory();
     private static final TransitScheduleFactory scheduleFactory = ScenarioUtils.createScenario(ConfigUtils.createConfig()).getTransitSchedule().getFactory();
 
