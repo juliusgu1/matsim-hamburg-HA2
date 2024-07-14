@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<transitSchedule>
+  <transitStops>
+    <stopFacility id="BA-BramfeldStopFacility" x="571219" y="5941120" linkRefId="BA-BramfeldLink" isBlocking="false"/>
+    <stopFacility id="BA-SteilshoopStopFacility" x="570058" y="5940701" linkRefId="BA-SteilshoopLink" isBlocking="false"/>
+    <stopFacility id="BA-Barmbek_NordStopFacility" x="568759" y="5940450" linkRefId="BA-Barmbek_NordLink" isBlocking="false"/>
+    <stopFacility id="BA-SengelmannstrasseStopFacility" x="567616" y="5940552" linkRefId="BA-SengelmannstrasseLink" isBlocking="false"/>
+    <stopFacility id="BA-City_NordStopFacility" x="567314" y="5939747" linkRefId="BA-City_NordLink" isBlocking="false"/>
+    <stopFacility id="BA-BorgwergStopFacility" x="567169" y="5938476" linkRefId="BA-BorgwergLink" isBlocking="false"/>
+    <stopFacility id="BA-JarrestrasseStopFacility" x="567453" y="5937734" linkRefId="BA-JarrestrasseLink" isBlocking="false"/>
+    <stopFacility id="BA-BeethovenstrasseStopFacility" x="567583" y="5936810" linkRefId="BA-BeethovenstrasseLink" isBlocking="false"/>
+    <stopFacility id="BA-UhlenhorstStopFacility" x="567701" y="5935870" linkRefId="BA-UhlenhorstLink" isBlocking="false"/>
+    <stopFacility id="BA-St_GeorgStopFacility" x="567192" y="5935020" linkRefId="BA-St_GeorgLink" isBlocking="false"/>
+    <stopFacility id="BA-Hauptbahnhof_NordStopFacility" x="566654" y="5934389" linkRefId="BA-Hauptbahnhof_NordLink" isBlocking="false"/>
+    <stopFacility id="BA-JungfernstiegStopFacility" x="565765" y="5934277" linkRefId="BA-JungfernstiegLink" isBlocking="false"/>
+    <stopFacility id="BA-Stephansplatz_DammtorStopFacility" x="565531" y="5934885" linkRefId="BA-Stephansplatz_DammtorLink" isBlocking="false"/>
+    <stopFacility id="BA-UniversitaetStopFacility" x="564995" y="5935768" linkRefId="BA-UniversitaetLink" isBlocking="false"/>
+    <stopFacility id="BA-GrindelbergStopFacility" x="564799" y="5936354" linkRefId="BA-GrindelbergLink" isBlocking="false"/>
+    <stopFacility id="BA-HoheluftbrueckeStopFacility" x="564670" y="5937011" linkRefId="BA-HoheluftbrueckeLink" isBlocking="false"/>
+    <stopFacility id="BA-GaertnerstrasseStopFacility" x="564151" y="5937787" linkRefId="BA-GaertnerstrasseLink" isBlocking="false"/>
+    <stopFacility id="BA-UKEStopFacility" x="564499" y="5938723" linkRefId="BA-UKELink" isBlocking="false"/>
+    <stopFacility id="BA-BehrmannplatzStopFacility" x="563375" y="5939353" linkRefId="BA-BehrmannplatzLink" isBlocking="false"/>
+    <stopFacility id="BA-Hagenbecks_TierparkStopFacility" x="562477" y="5938643" linkRefId="BA-Hagenbecks_TierparkLink" isBlocking="false"/>
+    <stopFacility id="BA-SportplatzringStopFacility" x="561681" y="5938588" linkRefId="BA-SportplatzringLink" isBlocking="false"/>
+    <stopFacility id="BA-Stellingen_ArenenStopFacility" x="560879" y="5938410" linkRefId="BA-Stellingen_ArenenLink" isBlocking="false"/>
+    <stopFacility id="BA-Arenen_VolksparkStopFacility" x="559558" y="5938583" linkRefId="BA-Arenen_VolksparkLink" isBlocking="false"/>
+  </transitStops>
+  <transitStops>
+    <stopFacility id="AB-Arenen_VolksparkStopFacility" x="559558" y="5938583" linkRefId="AB-Arenen_VolksparkLink" isBlocking="false"/>
+    <stopFacility id="AB-Stellingen_ArenenStopFacility" x="560879" y="5938410" linkRefId="AB-Stellingen_ArenenLink" isBlocking="false"/>
+    <stopFacility id="AB-SportplatzringStopFacility" x="561681" y="5938588" linkRefId="AB-SportplatzringLink" isBlocking="false"/>
+    <stopFacility id="AB-Hagenbecks_TierparkStopFacility" x="562477" y="5938643" linkRefId="AB-Hagenbecks_TierparkLink" isBlocking="false"/>
+    <stopFacility id="AB-BehrmannplatzStopFacility" x="563375" y="5939353" linkRefId="AB-BehrmannplatzLink" isBlocking="false"/>
+    <stopFacility id="AB-UKEStopFacility" x="564499" y="5938723" linkRefId="AB-UKELink" isBlocking="false"/>
+    <stopFacility id="AB-GaertnerstrasseStopFacility" x="564151" y="5937787" linkRefId="AB-GaertnerstrasseLink" isBlocking="false"/>
+    <stopFacility id="AB-HoheluftbrueckeStopFacility" x="564670" y="5937011" linkRefId="AB-HoheluftbrueckeLink" isBlocking="false"/>
+    <stopFacility id="AB-GrindelbergStopFacility" x="564799" y="5936354" linkRefId="AB-GrindelbergLink" isBlocking="false"/>
+    <stopFacility id="AB-UniversitaetStopFacility" x="564995" y="5935768" linkRefId="AB-UniversitaetLink" isBlocking="false"/>
+    <stopFacility id="AB-Stephansplatz_DammtorStopFacility" x="565531" y="5934885" linkRefId="AB-Stephansplatz_DammtorLink" isBlocking="false"/>
+    <stopFacility id="AB-JungfernstiegStopFacility" x="565765" y="5934277" linkRefId="AB-JungfernstiegLink" isBlocking="false"/>
+    <stopFacility id="AB-Hauptbahnhof_NordStopFacility" x="566654" y="5934389" linkRefId="AB-Hauptbahnhof_NordLink" isBlocking="false"/>
+    <stopFacility id="AB-St_GeorgStopFacility" x="567192" y="5935020" linkRefId="AB-St_GeorgLink" isBlocking="false"/>
+    <stopFacility id="AB-UhlenhorstStopFacility" x="567701" y="5935870" linkRefId="AB-UhlenhorstLink" isBlocking="false"/>
+    <stopFacility id="AB-BeethovenstrasseStopFacility" x="567583" y="5936810" linkRefId="AB-BeethovenstrasseLink" isBlocking="false"/>
+    <stopFacility id="AB-JarrestrasseStopFacility" x="567453" y="5937734" linkRefId="AB-JarrestrasseLink" isBlocking="false"/>
+    <stopFacility id="AB-BorgwergStopFacility" x="567169" y="5938476" linkRefId="AB-BorgwergLink" isBlocking="false"/>
+    <stopFacility id="AB-City_NordStopFacility" x="567314" y="5939747" linkRefId="AB-City_NordLink" isBlocking="false"/>
+    <stopFacility id="AB-SengelmannstrasseStopFacility" x="567616" y="5940552" linkRefId="AB-SengelmannstrasseLink" isBlocking="false"/>
+    <stopFacility id="AB-Barmbek_NordStopFacility" x="568759" y="5940450" linkRefId="AB-Barmbek_NordLink" isBlocking="false"/>
+    <stopFacility id="AB-SteilshoopStopFacility" x="570058" y="5940701" linkRefId="AB-SteilshoopLink" isBlocking="false"/>
+    <stopFacility id="AB-BramfeldStopFacility" x="571219" y="5941120" linkRefId="AB-BramfeldLink" isBlocking="false"/>
+  </transitStops>
+</transitSchedule>
