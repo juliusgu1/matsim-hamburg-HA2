@@ -1,104 +1,54 @@
 <?xml version="1.0" ?>
 <network>
-    
-
-    
+ 
     <nodes>
-        
-        
-        
+ 
         <node id="BramfeldNode" x="571219" y="5941120">
         </node>
-        
-        
         <node id="SteilshoopNode" x="570058" y="5940701">
         </node>
-        
-        
         <node id="Barmbek_NordNode" x="568759" y="5940450">
         </node>
-        
-        
         <node id="SengelmannstrasseNode" x="567616" y="5940552">
         </node>
-        
-        
         <node id="City_NordNode" x="567314" y="5939747">
         </node>
-        
-        
         <node id="BorgwergNode" x="567169" y="5938476">
         </node>
-        
-        
         <node id="JarrestrasseNode" x="567453" y="5937734">
         </node>
-        
-        
         <node id="BeethovenstrasseNode" x="567583" y="5936810">
         </node>
-        
-        
         <node id="UhlenhorstNode" x="567701" y="5935870">
         </node>
-        
-        
         <node id="St_GeorgNode" x="567192" y="5935020">
         </node>
-        
-        
         <node id="Hauptbahnhof_NordNode" x="566654" y="5934389">
         </node>
-        
-        
         <node id="JungfernstiegNode" x="565765" y="5934277">
         </node>
-        
-        
         <node id="Stephansplatz_DammtorNode" x="565531" y="5934885">
         </node>
-        
-        
         <node id="UniversitaetNode" x="564995" y="5935768">
         </node>
-        
-        
         <node id="GrindelbergNode" x="564799" y="5936354">
         </node>
-        
-        
         <node id="HoheluftbrueckeNode" x="564670" y="5937011">
         </node>
-        
-        
         <node id="GaertnerstrasseNode" x="564151" y="5937787">
         </node>
-        
-        
         <node id="UKENode" x="564499" y="5938723">
         </node>
-        
-        
         <node id="BehrmannplatzNode" x="563375" y="5939353">
         </node>
-        
-        
         <node id="Hagenbecks_TierparkNode" x="562477" y="5938643">
         </node>
-        
-        
         <node id="SportplatzringNode" x="561681" y="5938588">
         </node>
-        
-        
         <node id="Stellingen_ArenenNode" x="560879" y="5938410">
         </node>
-        
-        
         <node id="Arenen_VolksparkNode" x="559558" y="5938583">
         </node>
-        
-    
     </nodes>
     
 	
