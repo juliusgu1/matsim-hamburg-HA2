@@ -24,8 +24,7 @@
     <stopFacility id="BA-SportplatzringStopFacility" x="561681" y="5938588" linkRefId="BA-SportplatzringLink" isBlocking="false"/>
     <stopFacility id="BA-Stellingen_ArenenStopFacility" x="560879" y="5938410" linkRefId="BA-Stellingen_ArenenLink" isBlocking="false"/>
     <stopFacility id="BA-Arenen_VolksparkStopFacility" x="559558" y="5938583" linkRefId="BA-Arenen_VolksparkLink" isBlocking="false"/>
-  </transitStops>
-  <transitStops>
+  
     <stopFacility id="AB-Arenen_VolksparkStopFacility" x="559558" y="5938583" linkRefId="AB-Arenen_VolksparkLink" isBlocking="false"/>
     <stopFacility id="AB-Stellingen_ArenenStopFacility" x="560879" y="5938410" linkRefId="AB-Stellingen_ArenenLink" isBlocking="false"/>
     <stopFacility id="AB-SportplatzringStopFacility" x="561681" y="5938588" linkRefId="AB-SportplatzringLink" isBlocking="false"/>
