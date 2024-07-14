@@ -1,102 +1,175 @@
 <?xml version="1.0" ?>
 <network>
+    
 
+    
     <nodes>
+        
+        
         
         <node id="BramfeldNode" x="571219" y="5941120">
         </node>
+        
+        
         <node id="SteilshoopNode" x="570058" y="5940701">
         </node>
+        
+        
         <node id="Barmbek_NordNode" x="568759" y="5940450">
         </node>
+        
+        
         <node id="SengelmannstrasseNode" x="567616" y="5940552">
         </node>
+        
+        
         <node id="City_NordNode" x="567314" y="5939747">
         </node>
+        
+        
         <node id="BorgwergNode" x="567169" y="5938476">
         </node>
+        
+        
         <node id="JarrestrasseNode" x="567453" y="5937734">
         </node>
+        
+        
         <node id="BeethovenstrasseNode" x="567583" y="5936810">
         </node>
+        
+        
         <node id="UhlenhorstNode" x="567701" y="5935870">
         </node>
+        
+        
         <node id="St_GeorgNode" x="567192" y="5935020">
         </node>
+        
+        
         <node id="Hauptbahnhof_NordNode" x="566654" y="5934389">
         </node>
+        
+        
         <node id="JungfernstiegNode" x="565765" y="5934277">
         </node>
+        
+        
         <node id="Stephansplatz_DammtorNode" x="565531" y="5934885">
         </node>
+        
+        
         <node id="UniversitaetNode" x="564995" y="5935768">
         </node>
+        
+        
         <node id="GrindelbergNode" x="564799" y="5936354">
         </node>
+        
+        
         <node id="HoheluftbrueckeNode" x="564670" y="5937011">
         </node>
+        
+        
         <node id="GaertnerstrasseNode" x="564151" y="5937787">
         </node>
+        
+        
         <node id="UKENode" x="564499" y="5938723">
         </node>
+        
+        
         <node id="BehrmannplatzNode" x="563375" y="5939353">
         </node>
+        
+        
         <node id="Hagenbecks_TierparkNode" x="562477" y="5938643">
         </node>
+        
+        
         <node id="SportplatzringNode" x="561681" y="5938588">
         </node>
+        
+        
         <node id="Stellingen_ArenenNode" x="560879" y="5938410">
         </node>
+        
+        
         <node id="Arenen_VolksparkNode" x="559558" y="5938583">
         </node>
+        
+    
     </nodes>
     
+	
 
     <links>
-        <link id="BA-BramfeldLink" from="BramfeldNode" to="BramfeldNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-SteilshoopLink" from="SteilshoopNode" to="SteilshoopNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-Barmbek_NordLink" from="Barmbek_NordNode" to="Barmbek_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-SengelmannstrasseLink" from="SengelmannstrasseNode" to="SengelmannstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-City_NordLink" from="City_NordNode" to="City_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-BorgwergLink" from="BorgwergNode" to="BorgwergNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-JarrestrasseLink" from="JarrestrasseNode" to="JarrestrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-BeethovenstrasseLink" from="BeethovenstrasseNode" to="BeethovenstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-UhlenhorstLink" from="UhlenhorstNode" to="UhlenhorstNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-St_GeorgLink" from="St_GeorgNode" to="St_GeorgNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-Hauptbahnhof_NordLink" from="Hauptbahnhof_NordNode" to="Hauptbahnhof_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-JungfernstiegLink" from="JungfernstiegNode" to="JungfernstiegNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-Stephansplatz_DammtorLink" from="Stephansplatz_DammtorNode" to="Stephansplatz_DammtorNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-UniversitaetLink" from="UniversitaetNode" to="UniversitaetNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-GrindelbergLink" from="GrindelbergNode" to="GrindelbergNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-HoheluftbrueckeLink" from="HoheluftbrueckeNode" to="HoheluftbrueckeNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-GaertnerstrasseLink" from="GaertnerstrasseNode" to="GaertnerstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-UKELink" from="UKENode" to="UKENode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-BehrmannplatzLink" from="BehrmannplatzNode" to="BehrmannplatzNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-Hagenbecks_TierparkLink" from="Hagenbecks_TierparkNode" to="Hagenbecks_TierparkNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-SportplatzringLink" from="SportplatzringNode" to="SportplatzringNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-Stellingen_ArenenLink" from="Stellingen_ArenenNode" to="Stellingen_ArenenNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BA-Arenen_VolksparkLink" from="Arenen_VolksparkNode" to="Arenen_VolksparkNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BramfeldNode_to_SteilshoopNode" from="BramfeldNode" to="SteilshoopNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="SteilshoopNode_to_Barmbek_NordNode" from="SteilshoopNode" to="Barmbek_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="Barmbek_NordNode_to_SengelmannstrasseNode" from="Barmbek_NordNode" to="SengelmannstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="SengelmannstrasseNode_to_City_NordNode" from="SengelmannstrasseNode" to="City_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="City_NordNode_to_BorgwergNode" from="City_NordNode" to="BorgwergNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BorgwergNode_to_JarrestrasseNode" from="BorgwergNode" to="JarrestrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="JarrestrasseNode_to_BeethovenstrasseNode" from="JarrestrasseNode" to="BeethovenstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BeethovenstrasseNode_to_UhlenhorstNode" from="BeethovenstrasseNode" to="UhlenhorstNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="UhlenhorstNode_to_St_GeorgNode" from="UhlenhorstNode" to="St_GeorgNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="St_GeorgNode_to_Hauptbahnhof_NordNode" from="St_GeorgNode" to="Hauptbahnhof_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="Hauptbahnhof_NordNode_to_JungfernstiegNode" from="Hauptbahnhof_NordNode" to="JungfernstiegNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="JungfernstiegNode_to_Stephansplatz_DammtorNode" from="JungfernstiegNode" to="Stephansplatz_DammtorNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="Stephansplatz_DammtorNode_to_UniversitaetNode" from="Stephansplatz_DammtorNode" to="UniversitaetNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="UniversitaetNode_to_GrindelbergNode" from="UniversitaetNode" to="GrindelbergNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="GrindelbergNode_to_HoheluftbrueckeNode" from="GrindelbergNode" to="HoheluftbrueckeNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="HoheluftbrueckeNode_to_GaertnerstrasseNode" from="HoheluftbrueckeNode" to="GaertnerstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="GaertnerstrasseNode_to_UKENode" from="GaertnerstrasseNode" to="UKENode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="UKENode_to_BehrmannplatzNode" from="UKENode" to="BehrmannplatzNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="BehrmannplatzNode_to_Hagenbecks_TierparkNode" from="BehrmannplatzNode" to="Hagenbecks_TierparkNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="Hagenbecks_TierparkNode_to_SportplatzringNode" from="Hagenbecks_TierparkNode" to="SportplatzringNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="SportplatzringNode_to_Stellingen_ArenenNode" from="SportplatzringNode" to="Stellingen_ArenenNode" allowedModes="pt" freespeed="100" capacity="10000"/>
-        <link id="Stellingen_ArenenNode_to_Arenen_VolksparkNode" from="Stellingen_ArenenNode" to="Arenen_VolksparkNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-BramfeldLink" fromNode="BramfeldNode" to="BramfeldNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-SteilshoopLink" fromNode="SteilshoopNode" to="SteilshoopNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-Barmbek_NordLink" fromNode="Barmbek_NordNode" to="Barmbek_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-SengelmannstrasseLink" fromNode="SengelmannstrasseNode" to="SengelmannstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-City_NordLink" fromNode="City_NordNode" to="City_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-BorgwergLink" fromNode="BorgwergNode" to="BorgwergNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-JarrestrasseLink" fromNode="JarrestrasseNode" to="JarrestrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-BeethovenstrasseLink" fromNode="BeethovenstrasseNode" to="BeethovenstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-UhlenhorstLink" fromNode="UhlenhorstNode" to="UhlenhorstNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-St_GeorgLink" fromNode="St_GeorgNode" to="St_GeorgNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-Hauptbahnhof_NordLink" fromNode="Hauptbahnhof_NordNode" to="Hauptbahnhof_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-JungfernstiegLink" fromNode="JungfernstiegNode" to="JungfernstiegNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-Stephansplatz_DammtorLink" fromNode="Stephansplatz_DammtorNode" to="Stephansplatz_DammtorNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-UniversitaetLink" fromNode="UniversitaetNode" to="UniversitaetNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-GrindelbergLink" fromNode="GrindelbergNode" to="GrindelbergNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-HoheluftbrueckeLink" fromNode="HoheluftbrueckeNode" to="HoheluftbrueckeNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-GaertnerstrasseLink" fromNode="GaertnerstrasseNode" to="GaertnerstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-UKELink" fromNode="UKENode" to="UKENode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-BehrmannplatzLink" fromNode="BehrmannplatzNode" to="BehrmannplatzNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-Hagenbecks_TierparkLink" fromNode="Hagenbecks_TierparkNode" to="Hagenbecks_TierparkNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-SportplatzringLink" fromNode="SportplatzringNode" to="SportplatzringNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-Stellingen_ArenenLink" fromNode="Stellingen_ArenenNode" to="Stellingen_ArenenNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BA-Arenen_VolksparkLink" fromNode="Arenen_VolksparkNode" to="Arenen_VolksparkNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BramfeldNode_to_SteilshoopNode" fromNode="BramfeldNode" to="SteilshoopNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="SteilshoopNode_to_Barmbek_NordNode" fromNode="SteilshoopNode" to="Barmbek_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="Barmbek_NordNode_to_SengelmannstrasseNode" fromNode="Barmbek_NordNode" to="SengelmannstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="SengelmannstrasseNode_to_City_NordNode" fromNode="SengelmannstrasseNode" to="City_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="City_NordNode_to_BorgwergNode" fromNode="City_NordNode" to="BorgwergNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BorgwergNode_to_JarrestrasseNode" fromNode="BorgwergNode" to="JarrestrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="JarrestrasseNode_to_BeethovenstrasseNode" fromNode="JarrestrasseNode" to="BeethovenstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BeethovenstrasseNode_to_UhlenhorstNode" fromNode="BeethovenstrasseNode" to="UhlenhorstNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="UhlenhorstNode_to_St_GeorgNode" fromNode="UhlenhorstNode" to="St_GeorgNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="St_GeorgNode_to_Hauptbahnhof_NordNode" fromNode="St_GeorgNode" to="Hauptbahnhof_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="Hauptbahnhof_NordNode_to_JungfernstiegNode" fromNode="Hauptbahnhof_NordNode" to="JungfernstiegNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="JungfernstiegNode_to_Stephansplatz_DammtorNode" fromNode="JungfernstiegNode" to="Stephansplatz_DammtorNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="Stephansplatz_DammtorNode_to_UniversitaetNode" fromNode="Stephansplatz_DammtorNode" to="UniversitaetNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="UniversitaetNode_to_GrindelbergNode" fromNode="UniversitaetNode" to="GrindelbergNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="GrindelbergNode_to_HoheluftbrueckeNode" fromNode="GrindelbergNode" to="HoheluftbrueckeNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="HoheluftbrueckeNode_to_GaertnerstrasseNode" fromNode="HoheluftbrueckeNode" to="GaertnerstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="GaertnerstrasseNode_to_UKENode" fromNode="GaertnerstrasseNode" to="UKENode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="UKENode_to_BehrmannplatzNode" fromNode="UKENode" to="BehrmannplatzNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BehrmannplatzNode_to_Hagenbecks_TierparkNode" fromNode="BehrmannplatzNode" to="Hagenbecks_TierparkNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="Hagenbecks_TierparkNode_to_SportplatzringNode" fromNode="Hagenbecks_TierparkNode" to="SportplatzringNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="SportplatzringNode_to_Stellingen_ArenenNode" fromNode="SportplatzringNode" to="Stellingen_ArenenNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="Stellingen_ArenenNode_to_Arenen_VolksparkNode" fromNode="Stellingen_ArenenNode" to="Arenen_VolksparkNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="SteilshoopNode_to_BramfeldNode" fromNode="SteilshoopNode" to="BramfeldNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="Barmbek_NordNode_to_SteilshoopNode" fromNode="Barmbek_NordNode" to="SteilshoopNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="SengelmannstrasseNode_to_Barmbek_NordNode" fromNode="SengelmannstrasseNode" to="Barmbek_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="City_NordNode_to_SengelmannstrasseNode" fromNode="City_NordNode" to="SengelmannstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BorgwergNode_to_City_NordNode" fromNode="BorgwergNode" to="City_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="JarrestrasseNode_to_BorgwergNode" fromNode="JarrestrasseNode" to="BorgwergNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BeethovenstrasseNode_to_JarrestrasseNode" fromNode="BeethovenstrasseNode" to="JarrestrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="UhlenhorstNode_to_BeethovenstrasseNode" fromNode="UhlenhorstNode" to="BeethovenstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="St_GeorgNode_to_UhlenhorstNode" fromNode="St_GeorgNode" to="UhlenhorstNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="Hauptbahnhof_NordNode_to_St_GeorgNode" fromNode="Hauptbahnhof_NordNode" to="St_GeorgNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="JungfernstiegNode_to_Hauptbahnhof_NordNode" fromNode="JungfernstiegNode" to="Hauptbahnhof_NordNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="Stephansplatz_DammtorNode_to_JungfernstiegNode" fromNode="Stephansplatz_DammtorNode" to="JungfernstiegNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="UniversitaetNode_to_Stephansplatz_DammtorNode" fromNode="UniversitaetNode" to="Stephansplatz_DammtorNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="GrindelbergNode_to_UniversitaetNode" fromNode="GrindelbergNode" to="UniversitaetNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="HoheluftbrueckeNode_to_GrindelbergNode" fromNode="HoheluftbrueckeNode" to="GrindelbergNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="GaertnerstrasseNode_to_HoheluftbrueckeNode" fromNode="GaertnerstrasseNode" to="HoheluftbrueckeNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="UKENode_to_GaertnerstrasseNode" fromNode="UKENode" to="GaertnerstrasseNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="BehrmannplatzNode_to_UKENode" fromNode="BehrmannplatzNode" to="UKENode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="Hagenbecks_TierparkNode_to_BehrmannplatzNode" fromNode="Hagenbecks_TierparkNode" to="BehrmannplatzNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="SportplatzringNode_to_Hagenbecks_TierparkNode" fromNode="SportplatzringNode" to="Hagenbecks_TierparkNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="Stellingen_ArenenNode_to_SportplatzringNode" fromNode="Stellingen_ArenenNode" to="SportplatzringNode" allowedModes="pt" freespeed="100" capacity="10000"/>
+        <link id="Arenen_VolksparkNode_to_Stellingen_ArenenNode" fromNode="Arenen_VolksparkNode" to="Stellingen_ArenenNode" allowedModes="pt" freespeed="100" capacity="10000"/>
     </links>
 </network>
