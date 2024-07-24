@@ -63,7 +63,7 @@ public class RunBaseCaseHamburgScenario {
         }
 
         if (args.length == 0) {
-            args = new String[] {"https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/countries/de/hamburg/hamburg-v3/v3.0/input/baseCase/hamburg-v3.0-25pct.config.baseCase.xml"};
+            args = new String[] {"/scenarios/input/hamburg-v3.0-1pct.config.U5Test_V1.xml"};
         }
 
         RunBaseCaseHamburgScenario baseCaseHH = new RunBaseCaseHamburgScenario();
