@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE config SYSTEM "http://www.matsim.org/files/dtd/config_v2.dtd">
+<!-- Check before running: Iteration, outputDirectory, inputNetworkFile, inputPlansFile (?),
+transit module (transitScheduleFile, vehicleFile) -->
 <config>
 	<module name="HereAPITravelTimeValidation" >
 		<param name="date" value="2021-02-24" />
@@ -43,7 +45,8 @@
 		<param name="scorePenaltyForMassConservationViolation" value="-2.5" />
 	</module>
 	<module name="network" >
-		<param name="inputNetworkFile" value="https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/countries/de/hamburg/hamburg-v3/v3.0/input/baseCase/hamburg-v3.0-network-with-pt.xml.gz" />
+		<!-- adapt path before running on different PC or cluster -->
+		<param name="inputNetworkFile" value="C:\Users\Julius Guizetti\Desktop\UNI\Master\MATSim\HA 2\Merged_Files\merged_network_file.xml" />
 	</module>
 	<module name="planCalcScore">
 		<param name="fractionOfIterationsToStartScoreMSA" value="1.0"/>
@@ -195,12 +198,12 @@
 		<param name="useRangeQuery" value="false" />
 	</module>
 	<module name="transit" >
-		<!-- Input file containing the transit schedule to be simulated. -->
-		<param name="transitScheduleFile" value="https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/countries/de/hamburg/hamburg-v3/v3.0/input/baseCase/hamburg-v3.0-transitSchedule.xml.gz" />
+		<!-- Input file containing the transit schedule to be simulated. Adapt before running on different PC or cluster -->
+		<param name="transitScheduleFile" value="C:\Users\Julius Guizetti\Desktop\UNI\Master\MATSim\HA 2\Merged_Files\merged_schedule_file.xml" />
 		<!-- Set this parameter to true if transit should be simulated, false if not. -->
 		<param name="useTransit" value="true" />
-		<!-- Input file containing the vehicles used by the departures in the transit schedule. -->
-		<param name="vehiclesFile" value="https://svn.vsp.tu-berlin.de/repos/public-svn/matsim/scenarios/countries/de/hamburg/hamburg-v3/v3.0/input/baseCase/hamburg-v3.0-transitVehicles.xml.gz" />
+		<!-- Input file containing the vehicles used by the departures in the transit schedule. Adapt before running on different PC or cluster -->
+		<param name="vehiclesFile" value="C:\Users\Julius Guizetti\Desktop\UNI\Master\MATSim\HA 2\Merged_Files\merged_vehicles_file.xml" />
 	</module>
 	<module name="transitRouter" >
 		<!-- step size to increase searchRadius if no stops are found -->
