@@ -17,7 +17,7 @@ transit module (transitScheduleFile, vehicleFile) -->
 	<module name="controler" >
 		<!-- Default=1000. Last Iteration of a simulation. -->
 		<param name="lastIteration" value="2" />
-		<param name="outputDirectory" value="scenarios/output/output-hamburg-v3.0-1pct" />
+		<param name="outputDirectory" value="scenarios/output/output-hamburg-v3.0-1pct_TEST_V1" />
 		<!-- Possible values: failIfDirectoryExists, overwriteExistingFiles, deleteDirectoryIfExists -->
 		<param name="overwriteFiles" value="deleteDirectoryIfExists" />
 		<!-- An identifier for the current run which is used as prefix for output files and mentioned in output xml files etc. -->
