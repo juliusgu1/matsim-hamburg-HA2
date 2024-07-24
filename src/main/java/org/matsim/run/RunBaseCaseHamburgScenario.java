@@ -63,7 +63,7 @@ public class RunBaseCaseHamburgScenario {
         }
 
         if (args.length == 0) {
-            args = new String[] {"/scenarios/input/hamburg-v3.0-1pct.config.U5Test_V1.xml"};
+            args = new String[] {"./scenarios/input/hamburg-v3.0-1pct.config.U5Test_V1.xml"};
         }
 
         RunBaseCaseHamburgScenario baseCaseHH = new RunBaseCaseHamburgScenario();

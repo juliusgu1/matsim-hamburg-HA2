@@ -23,9 +23,9 @@ transit module (transitScheduleFile, vehicleFile) -->
 		<!-- An identifier for the current run which is used as prefix for output files and mentioned in output xml files etc. -->
 		<param name="runId" value="hamburg-v3.0-1pct-base" />
 		<!-- iterationNumber % writeEventsInterval == 0 defines in which iterations events are written to a file. `0' disables events writing completely. -->
-		<param name="writeEventsInterval" value="100" />
+		<param name="writeEventsInterval" value="1" />
 		<!-- iterationNumber % writePlansInterval == 0 defines (hopefully) in which iterations plans are written to a file. `0' disables plans writing completely.  Some plans in early iterations are always written -->
-		<param name="writePlansInterval" value="50" />
+		<param name="writePlansInterval" value="1" />
 	</module>
 	<module name="global" >
 		<param name="coordinateSystem" value="EPSG:25832" />
@@ -46,7 +46,7 @@ transit module (transitScheduleFile, vehicleFile) -->
 	</module>
 	<module name="network" >
 		<!-- adapt path before running on different PC or cluster -->
-		<param name="inputNetworkFile" value="C:\Users\Julius Guizetti\Desktop\UNI\Master\MATSim\HA 2\Merged_Files\merged_network_file.xml" />
+		<param name="inputNetworkFile" value="C:\Users\Julius Guizetti\Desktop\UNI\Master\MATSim\HA 2\Merged_Files\merged_network_file_V2.xml" />
 	</module>
 	<module name="planCalcScore">
 		<param name="fractionOfIterationsToStartScoreMSA" value="1.0"/>
