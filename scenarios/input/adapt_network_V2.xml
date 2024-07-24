@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<network>
+    <nodes>
+        <node id="BramfeldNode" x="571219" y="5941120">
+        </node>
+        <node id="SteilshoopNode" x="570058" y="5940701">
+        </node>
+        <node id="Barmbek_NordNode" x="568759" y="5940450">
+        </node>
+        <node id="SengelmannstrasseNode" x="567616" y="5940552">
+        </node>
+        <node id="City_NordNode" x="567314" y="5939747">
+        </node>
+        <node id="BorgwergNode" x="567169" y="5938476">
+        </node>
+        <node id="JarrestrasseNode" x="567453" y="5937734">
+        </node>
+        <node id="BeethovenstrasseNode" x="567583" y="5936810">
+        </node>
+        <node id="UhlenhorstNode" x="567701" y="5935870">
+        </node>
+        <node id="St_GeorgNode" x="567192" y="5935020">
+        </node>
+        <node id="Hauptbahnhof_NordNode" x="566654" y="5934389">
+        </node>
+        <node id="JungfernstiegNode" x="565765" y="5934277">
+        </node>
+        <node id="Stephansplatz_DammtorNode" x="565531" y="5934885">
+        </node>
+        <node id="UniversitaetNode" x="564995" y="5935768">
+        </node>
+        <node id="GrindelbergNode" x="564799" y="5936354">
+        </node>
+        <node id="HoheluftbrueckeNode" x="564670" y="5937011">
+        </node>
+        <node id="GaertnerstrasseNode" x="564151" y="5937787">
+        </node>
+        <node id="UKENode" x="564499" y="5938723">
+        </node>
+        <node id="BehrmannplatzNode" x="563375" y="5939353">
+        </node>
+        <node id="Hagenbecks_TierparkNode" x="562477" y="5938643">
+        </node>
+        <node id="SportplatzringNode" x="561681" y="5938588">
+        </node>
+        <node id="Stellingen_ArenenNode" x="560879" y="5938410">
+        </node>
+        <node id="Arenen_VolksparkNode" x="559558" y="5938583">
+        </node>
+        </nodes>
+    <links>
+        	
+        <link id="BA-BramfeldLink" from_="BramfeldNode" to="BramfeldNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-BramfeldNode_to_SteilshoopNode" from_="BramfeldNode" to="SteilshoopNode" length="1234.294130262313" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-SteilshoopLink" from_="SteilshoopNode" to="SteilshoopNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-SteilshoopNode_to_Barmbek_NordNode" from_="SteilshoopNode" to="Barmbek_NordNode" length="1323.0275885256513" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-Barmbek_NordLink" from_="Barmbek_NordNode" to="Barmbek_NordNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-Barmbek_NordNode_to_SengelmannstrasseNode" from_="Barmbek_NordNode" to="SengelmannstrasseNode" length="1147.542156088394" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-SengelmannstrasseLink" from_="SengelmannstrasseNode" to="SengelmannstrasseNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-SengelmannstrasseNode_to_City_NordNode" from_="SengelmannstrasseNode" to="City_NordNode" length="859.7842752690933" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-City_NordLink" from_="City_NordNode" to="City_NordNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-City_NordNode_to_BorgwergNode" from_="City_NordNode" to="BorgwergNode" length="1279.2443081757292" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-BorgwergLink" from_="BorgwergNode" to="BorgwergNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-BorgwergNode_to_JarrestrasseNode" from_="BorgwergNode" to="JarrestrasseNode" length="794.4935493759531" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-JarrestrasseLink" from_="JarrestrasseNode" to="JarrestrasseNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-JarrestrasseNode_to_BeethovenstrasseNode" from_="JarrestrasseNode" to="BeethovenstrasseNode" length="933.1002089807932" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-BeethovenstrasseLink" from_="BeethovenstrasseNode" to="BeethovenstrasseNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-BeethovenstrasseNode_to_UhlenhorstNode" from_="BeethovenstrasseNode" to="UhlenhorstNode" length="947.3774327056772" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-UhlenhorstLink" from_="UhlenhorstNode" to="UhlenhorstNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-UhlenhorstNode_to_St_GeorgNode" from_="UhlenhorstNode" to="St_GeorgNode" length="990.74769744875" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-St_GeorgLink" from_="St_GeorgNode" to="St_GeorgNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-St_GeorgNode_to_Hauptbahnhof_NordNode" from_="St_GeorgNode" to="Hauptbahnhof_NordNode" length="829.2195125538232" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-Hauptbahnhof_NordLink" from_="Hauptbahnhof_NordNode" to="Hauptbahnhof_NordNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-Hauptbahnhof_NordNode_to_JungfernstiegNode" from_="Hauptbahnhof_NordNode" to="JungfernstiegNode" length="896.0273433327802" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-JungfernstiegLink" from_="JungfernstiegNode" to="JungfernstiegNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-JungfernstiegNode_to_Stephansplatz_DammtorNode" from_="JungfernstiegNode" to="Stephansplatz_DammtorNode" length="651.4752489542484" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-Stephansplatz_DammtorLink" from_="Stephansplatz_DammtorNode" to="Stephansplatz_DammtorNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-Stephansplatz_DammtorNode_to_UniversitaetNode" from_="Stephansplatz_DammtorNode" to="UniversitaetNode" length="1032.9496599544432" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-UniversitaetLink" from_="UniversitaetNode" to="UniversitaetNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-UniversitaetNode_to_GrindelbergNode" from_="UniversitaetNode" to="GrindelbergNode" length="617.9093784690438" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-GrindelbergLink" from_="GrindelbergNode" to="GrindelbergNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-GrindelbergNode_to_HoheluftbrueckeNode" from_="GrindelbergNode" to="HoheluftbrueckeNode" length="669.5446213658952" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-HoheluftbrueckeLink" from_="HoheluftbrueckeNode" to="HoheluftbrueckeNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-HoheluftbrueckeNode_to_GaertnerstrasseNode" from_="HoheluftbrueckeNode" to="GaertnerstrasseNode" length="933.5614602156624" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-GaertnerstrasseLink" from_="GaertnerstrasseNode" to="GaertnerstrasseNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-GaertnerstrasseNode_to_UKENode" from_="GaertnerstrasseNode" to="UKENode" length="998.5990186255945" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-UKELink" from_="UKENode" to="UKENode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-UKENode_to_BehrmannplatzNode" from_="UKENode" to="BehrmannplatzNode" length="1288.5169769933184" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-BehrmannplatzLink" from_="BehrmannplatzNode" to="BehrmannplatzNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-BehrmannplatzNode_to_Hagenbecks_TierparkNode" from_="BehrmannplatzNode" to="Hagenbecks_TierparkNode" length="1144.7724664753257" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-Hagenbecks_TierparkLink" from_="Hagenbecks_TierparkNode" to="Hagenbecks_TierparkNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-Hagenbecks_TierparkNode_to_SportplatzringNode" from_="Hagenbecks_TierparkNode" to="SportplatzringNode" length="797.8978631378831" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-SportplatzringLink" from_="SportplatzringNode" to="SportplatzringNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-SportplatzringNode_to_Stellingen_ArenenNode" from_="SportplatzringNode" to="Stellingen_ArenenNode" length="821.5156724007156" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-Stellingen_ArenenLink" from_="Stellingen_ArenenNode" to="Stellingen_ArenenNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-Stellingen_ArenenNode_to_Arenen_VolksparkNode" from_="Stellingen_ArenenNode" to="Arenen_VolksparkNode" length="1332.2800006004743" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="BA-Arenen_VolksparkLink" from_="Arenen_VolksparkNode" to="Arenen_VolksparkNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Arenen_VolksparkLink" from_="Arenen_VolksparkNode" to="Arenen_VolksparkNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Arenen_VolksparkNode_to_Stellingen_ArenenNode" from_="Arenen_VolksparkNode" to="Stellingen_ArenenNode" length="1332.2800006004743" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Stellingen_ArenenLink" from_="Stellingen_ArenenNode" to="Stellingen_ArenenNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Stellingen_ArenenNode_to_SportplatzringNode" from_="Stellingen_ArenenNode" to="SportplatzringNode" length="821.5156724007156" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-SportplatzringLink" from_="SportplatzringNode" to="SportplatzringNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-SportplatzringNode_to_Hagenbecks_TierparkNode" from_="SportplatzringNode" to="Hagenbecks_TierparkNode" length="797.8978631378831" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Hagenbecks_TierparkLink" from_="Hagenbecks_TierparkNode" to="Hagenbecks_TierparkNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Hagenbecks_TierparkNode_to_BehrmannplatzNode" from_="Hagenbecks_TierparkNode" to="BehrmannplatzNode" length="1144.7724664753257" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-BehrmannplatzLink" from_="BehrmannplatzNode" to="BehrmannplatzNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-BehrmannplatzNode_to_UKENode" from_="BehrmannplatzNode" to="UKENode" length="1288.5169769933184" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-UKELink" from_="UKENode" to="UKENode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-UKENode_to_GaertnerstrasseNode" from_="UKENode" to="GaertnerstrasseNode" length="998.5990186255945" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-GaertnerstrasseLink" from_="GaertnerstrasseNode" to="GaertnerstrasseNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-GaertnerstrasseNode_to_HoheluftbrueckeNode" from_="GaertnerstrasseNode" to="HoheluftbrueckeNode" length="933.5614602156624" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-HoheluftbrueckeLink" from_="HoheluftbrueckeNode" to="HoheluftbrueckeNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-HoheluftbrueckeNode_to_GrindelbergNode" from_="HoheluftbrueckeNode" to="GrindelbergNode" length="669.5446213658952" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-GrindelbergLink" from_="GrindelbergNode" to="GrindelbergNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-GrindelbergNode_to_UniversitaetNode" from_="GrindelbergNode" to="UniversitaetNode" length="617.9093784690438" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-UniversitaetLink" from_="UniversitaetNode" to="UniversitaetNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-UniversitaetNode_to_Stephansplatz_DammtorNode" from_="UniversitaetNode" to="Stephansplatz_DammtorNode" length="1032.9496599544432" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Stephansplatz_DammtorLink" from_="Stephansplatz_DammtorNode" to="Stephansplatz_DammtorNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Stephansplatz_DammtorNode_to_JungfernstiegNode" from_="Stephansplatz_DammtorNode" to="JungfernstiegNode" length="651.4752489542484" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-JungfernstiegLink" from_="JungfernstiegNode" to="JungfernstiegNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-JungfernstiegNode_to_Hauptbahnhof_NordNode" from_="JungfernstiegNode" to="Hauptbahnhof_NordNode" length="896.0273433327802" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Hauptbahnhof_NordLink" from_="Hauptbahnhof_NordNode" to="Hauptbahnhof_NordNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Hauptbahnhof_NordNode_to_St_GeorgNode" from_="Hauptbahnhof_NordNode" to="St_GeorgNode" length="829.2195125538232" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-St_GeorgLink" from_="St_GeorgNode" to="St_GeorgNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-St_GeorgNode_to_UhlenhorstNode" from_="St_GeorgNode" to="UhlenhorstNode" length="990.74769744875" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-UhlenhorstLink" from_="UhlenhorstNode" to="UhlenhorstNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-UhlenhorstNode_to_BeethovenstrasseNode" from_="UhlenhorstNode" to="BeethovenstrasseNode" length="947.3774327056772" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-BeethovenstrasseLink" from_="BeethovenstrasseNode" to="BeethovenstrasseNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-BeethovenstrasseNode_to_JarrestrasseNode" from_="BeethovenstrasseNode" to="JarrestrasseNode" length="933.1002089807932" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-JarrestrasseLink" from_="JarrestrasseNode" to="JarrestrasseNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-JarrestrasseNode_to_BorgwergNode" from_="JarrestrasseNode" to="BorgwergNode" length="794.4935493759531" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-BorgwergLink" from_="BorgwergNode" to="BorgwergNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-BorgwergNode_to_City_NordNode" from_="BorgwergNode" to="City_NordNode" length="1279.2443081757292" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-City_NordLink" from_="City_NordNode" to="City_NordNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-City_NordNode_to_SengelmannstrasseNode" from_="City_NordNode" to="SengelmannstrasseNode" length="859.7842752690933" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-SengelmannstrasseLink" from_="SengelmannstrasseNode" to="SengelmannstrasseNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-SengelmannstrasseNode_to_Barmbek_NordNode" from_="SengelmannstrasseNode" to="Barmbek_NordNode" length="1147.542156088394" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Barmbek_NordLink" from_="Barmbek_NordNode" to="Barmbek_NordNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-Barmbek_NordNode_to_SteilshoopNode" from_="Barmbek_NordNode" to="SteilshoopNode" length="1323.0275885256513" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-SteilshoopLink" from_="SteilshoopNode" to="SteilshoopNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-SteilshoopNode_to_BramfeldNode" from_="SteilshoopNode" to="BramfeldNode" length="1234.294130262313" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        <link id="AB-BramfeldLink" from_="BramfeldNode" to="BramfeldNode" length="10.0" freespeed="100" capacity="10000" permlanes="1.0" oneway="1" modes="pt" />
+        </links>
+    </network>
