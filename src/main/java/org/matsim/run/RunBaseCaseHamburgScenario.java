@@ -77,6 +77,8 @@ public class RunBaseCaseHamburgScenario {
 
         Controler controler = prepareControler(scenario);
 
+
+
         controler.run();
         log.info("Done.");
     }
