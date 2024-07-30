@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<transitSchedule>
+  <transitLine id="U5">
+    <transitRoute id="U5_BA">
+      <transportMode>pt</transportMode>
+      <routeProfile>
+        <stop refId="BA-BramfeldStopFacility" arrivalOffset="0:00:00" departureOffset="0:00:30" awaitDeparture="true"/>
+        <stop refId="BA-SteilshoopStopFacility" arrivalOffset="0:02:30" departureOffset="0:03:00" awaitDeparture="true"/>
+        <stop refId="BA-Barmbek_NordStopFacility" arrivalOffset="0:04:44" departureOffset="0:05:14" awaitDeparture="true"/>
+        <stop refId="BA-SengelmannstrasseStopFacility" arrivalOffset="0:06:32" departureOffset="0:07:02" awaitDeparture="true"/>
+        <stop refId="BA-City_NordStopFacility" arrivalOffset="0:08:59" departureOffset="0:09:29" awaitDeparture="true"/>
+        <stop refId="BA-BorgwergStopFacility" arrivalOffset="0:10:41" departureOffset="0:11:11" awaitDeparture="true"/>
+        <stop refId="BA-JarrestrasseStopFacility" arrivalOffset="0:12:36" departureOffset="0:13:06" awaitDeparture="true"/>
+        <stop refId="BA-BeethovenstrasseStopFacility" arrivalOffset="0:14:32" departureOffset="0:15:02" awaitDeparture="true"/>
+        <stop refId="BA-UhlenhorstStopFacility" arrivalOffset="0:16:32" departureOffset="0:17:02" awaitDeparture="true"/>
+        <stop refId="BA-St_GeorgStopFacility" arrivalOffset="0:18:17" departureOffset="0:18:47" awaitDeparture="true"/>
+        <stop refId="BA-Hauptbahnhof_NordStopFacility" arrivalOffset="0:20:09" departureOffset="0:20:39" awaitDeparture="true"/>
+        <stop refId="BA-JungfernstiegStopFacility" arrivalOffset="0:21:38" departureOffset="0:22:08" awaitDeparture="true"/>
+        <stop refId="BA-Stephansplatz_DammtorStopFacility" arrivalOffset="0:23:42" departureOffset="0:24:12" awaitDeparture="true"/>
+        <stop refId="BA-UniversitaetStopFacility" arrivalOffset="0:25:08" departureOffset="0:25:38" awaitDeparture="true"/>
+        <stop refId="BA-GrindelbergStopFacility" arrivalOffset="0:26:39" departureOffset="0:27:09" awaitDeparture="true"/>
+        <stop refId="BA-HoheluftbrueckeStopFacility" arrivalOffset="0:28:34" departureOffset="0:29:04" awaitDeparture="true"/>
+        <stop refId="BA-GaertnerstrasseStopFacility" arrivalOffset="0:30:34" departureOffset="0:31:04" awaitDeparture="true"/>
+        <stop refId="BA-UKEStopFacility" arrivalOffset="0:33:02" departureOffset="0:33:32" awaitDeparture="true"/>
+        <stop refId="BA-BehrmannplatzStopFacility" arrivalOffset="0:35:16" departureOffset="0:35:46" awaitDeparture="true"/>
+        <stop refId="BA-Hagenbecks_TierparkStopFacility" arrivalOffset="0:36:58" departureOffset="0:37:28" awaitDeparture="true"/>
+        <stop refId="BA-SportplatzringStopFacility" arrivalOffset="0:38:43" departureOffset="0:39:13" awaitDeparture="true"/>
+        <stop refId="BA-Stellingen_ArenenStopFacility" arrivalOffset="0:41:14" departureOffset="0:41:44" awaitDeparture="true"/>
+        <stop refId="BA-Arenen_VolksparkStopFacility" arrivalOffset="0:41:44" departureOffset="0:42:14" awaitDeparture="true"/>
+      </routeProfile>
+    </transitRoute>
+    <transitRoute id="U5_AB">
+      <transportMode>pt</transportMode>
+      <routeProfile>
+        <stop refId="AB-Arenen_VolksparkStopFacility" arrivalOffset="0:00:00" departureOffset="0:00:30" awaitDeparture="true"/>
+        <stop refId="AB-Stellingen_ArenenStopFacility" arrivalOffset="0:01:44" departureOffset="0:02:14" awaitDeparture="true"/>
+        <stop refId="AB-SportplatzringStopFacility" arrivalOffset="0:03:27" departureOffset="0:03:57" awaitDeparture="true"/>
+        <stop refId="AB-Hagenbecks_TierparkStopFacility" arrivalOffset="0:05:41" departureOffset="0:06:11" awaitDeparture="true"/>
+        <stop refId="AB-BehrmannplatzStopFacility" arrivalOffset="0:08:08" departureOffset="0:08:38" awaitDeparture="true"/>
+        <stop refId="AB-UKEStopFacility" arrivalOffset="0:10:09" departureOffset="0:10:39" awaitDeparture="true"/>
+        <stop refId="AB-GaertnerstrasseStopFacility" arrivalOffset="0:12:04" departureOffset="0:12:34" awaitDeparture="true"/>
+        <stop refId="AB-HoheluftbrueckeStopFacility" arrivalOffset="0:13:34" departureOffset="0:14:04" awaitDeparture="true"/>
+        <stop refId="AB-GrindelbergStopFacility" arrivalOffset="0:15:01" departureOffset="0:15:31" awaitDeparture="true"/>
+        <stop refId="AB-UniversitaetStopFacility" arrivalOffset="0:17:05" departureOffset="0:17:35" awaitDeparture="true"/>
+        <stop refId="AB-Stephansplatz_DammtorStopFacility" arrivalOffset="0:18:34" departureOffset="0:19:04" awaitDeparture="true"/>
+        <stop refId="AB-JungfernstiegStopFacility" arrivalOffset="0:20:25" departureOffset="0:20:55" awaitDeparture="true"/>
+        <stop refId="AB-Hauptbahnhof_NordStopFacility" arrivalOffset="0:22:11" departureOffset="0:22:41" awaitDeparture="true"/>
+        <stop refId="AB-St_GeorgStopFacility" arrivalOffset="0:24:11" departureOffset="0:24:41" awaitDeparture="true"/>
+        <stop refId="AB-UhlenhorstStopFacility" arrivalOffset="0:26:07" departureOffset="0:26:37" awaitDeparture="true"/>
+        <stop refId="AB-BeethovenstrasseStopFacility" arrivalOffset="0:28:02" departureOffset="0:28:32" awaitDeparture="true"/>
+        <stop refId="AB-JarrestrasseStopFacility" arrivalOffset="0:29:44" departureOffset="0:30:14" awaitDeparture="true"/>
+        <stop refId="AB-BorgwergStopFacility" arrivalOffset="0:32:10" departureOffset="0:32:40" awaitDeparture="true"/>
+        <stop refId="AB-City_NordStopFacility" arrivalOffset="0:33:58" departureOffset="0:34:28" awaitDeparture="true"/>
+        <stop refId="AB-SengelmannstrasseStopFacility" arrivalOffset="0:36:13" departureOffset="0:36:43" awaitDeparture="true"/>
+        <stop refId="AB-Barmbek_NordStopFacility" arrivalOffset="0:38:43" departureOffset="0:39:13" awaitDeparture="true"/>
+        <stop refId="AB-SteilshoopStopFacility" arrivalOffset="0:41:05" departureOffset="0:41:35" awaitDeparture="true"/>
+        <stop refId="AB-BramfeldStopFacility" arrivalOffset="0:41:35" departureOffset="0:42:05" awaitDeparture="true"/>
+      </routeProfile>
+    </transitRoute>
+  </transitLine>
+</transitSchedule>
