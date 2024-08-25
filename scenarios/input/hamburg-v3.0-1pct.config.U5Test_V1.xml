@@ -46,7 +46,7 @@ transit module (transitScheduleFile, vehicleFile) -->
 	</module>
 	<module name="network" >
 		<!-- adapt path before running on different PC or cluster -->
-		<param name="inputNetworkFile" value=".\input\merged_network_file_V2.xml" />
+		<param name="inputNetworkFile" value="merged_network_file_V2.xml" />
 	</module>
 	<module name="planCalcScore">
 		<param name="fractionOfIterationsToStartScoreMSA" value="1.0"/>
@@ -199,11 +199,11 @@ transit module (transitScheduleFile, vehicleFile) -->
 	</module>
 	<module name="transit" >
 		<!-- Input file containing the transit schedule to be simulated. Adapt before running on different PC or cluster -->
-		<param name="transitScheduleFile" value=".\input\merged_schedule_file.xml" />
+		<param name="transitScheduleFile" value="merged_schedule_file.xml" />
 		<!-- Set this parameter to true if transit should be simulated, false if not. -->
 		<param name="useTransit" value="true" />
 		<!-- Input file containing the vehicles used by the departures in the transit schedule. Adapt before running on different PC or cluster -->
-		<param name="vehiclesFile" value=".\input\merged_vehicles_file.xml" />
+		<param name="vehiclesFile" value="merged_vehicles_file.xml" />
 	</module>
 	<module name="transitRouter" >
 		<!-- step size to increase searchRadius if no stops are found -->
