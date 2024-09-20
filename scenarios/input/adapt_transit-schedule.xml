@@ -1,206 +1,61 @@
 <?xml version="1.0" ?>
 <transitSchedule>
-  <transitStops>
-    <stopFacility id="BA-BramfeldStopFacility" x="571219" y="5941120" linkRefId="BA-BramfeldLink" isBlocking="false"/>
-    <stopFacility id="BA-SteilshoopStopFacility" x="570058" y="5940701" linkRefId="BA-SteilshoopLink" isBlocking="false"/>
-    <stopFacility id="BA-Barmbek_NordStopFacility" x="568759" y="5940450" linkRefId="BA-Barmbek_NordLink" isBlocking="false"/>
-    <stopFacility id="BA-SengelmannstrasseStopFacility" x="567616" y="5940552" linkRefId="BA-SengelmannstrasseLink" isBlocking="false"/>
-    <stopFacility id="BA-City_NordStopFacility" x="567314" y="5939747" linkRefId="BA-City_NordLink" isBlocking="false"/>
-    <stopFacility id="BA-BorgwergStopFacility" x="567169" y="5938476" linkRefId="BA-BorgwergLink" isBlocking="false"/>
-    <stopFacility id="BA-JarrestrasseStopFacility" x="567453" y="5937734" linkRefId="BA-JarrestrasseLink" isBlocking="false"/>
-    <stopFacility id="BA-BeethovenstrasseStopFacility" x="567583" y="5936810" linkRefId="BA-BeethovenstrasseLink" isBlocking="false"/>
-    <stopFacility id="BA-UhlenhorstStopFacility" x="567701" y="5935870" linkRefId="BA-UhlenhorstLink" isBlocking="false"/>
-    <stopFacility id="BA-St_GeorgStopFacility" x="567192" y="5935020" linkRefId="BA-St_GeorgLink" isBlocking="false"/>
-    <stopFacility id="BA-Hauptbahnhof_NordStopFacility" x="566654" y="5934389" linkRefId="BA-Hauptbahnhof_NordLink" isBlocking="false"/>
-    <stopFacility id="BA-JungfernstiegStopFacility" x="565765" y="5934277" linkRefId="BA-JungfernstiegLink" isBlocking="false"/>
-    <stopFacility id="BA-Stephansplatz_DammtorStopFacility" x="565531" y="5934885" linkRefId="BA-Stephansplatz_DammtorLink" isBlocking="false"/>
-    <stopFacility id="BA-UniversitaetStopFacility" x="564995" y="5935768" linkRefId="BA-UniversitaetLink" isBlocking="false"/>
-    <stopFacility id="BA-GrindelbergStopFacility" x="564799" y="5936354" linkRefId="BA-GrindelbergLink" isBlocking="false"/>
-    <stopFacility id="BA-HoheluftbrueckeStopFacility" x="564670" y="5937011" linkRefId="BA-HoheluftbrueckeLink" isBlocking="false"/>
-    <stopFacility id="BA-GaertnerstrasseStopFacility" x="564151" y="5937787" linkRefId="BA-GaertnerstrasseLink" isBlocking="false"/>
-    <stopFacility id="BA-UKEStopFacility" x="564499" y="5938723" linkRefId="BA-UKELink" isBlocking="false"/>
-    <stopFacility id="BA-BehrmannplatzStopFacility" x="563375" y="5939353" linkRefId="BA-BehrmannplatzLink" isBlocking="false"/>
-    <stopFacility id="BA-Hagenbecks_TierparkStopFacility" x="562477" y="5938643" linkRefId="BA-Hagenbecks_TierparkLink" isBlocking="false"/>
-    <stopFacility id="BA-SportplatzringStopFacility" x="561681" y="5938588" linkRefId="BA-SportplatzringLink" isBlocking="false"/>
-    <stopFacility id="BA-Stellingen_ArenenStopFacility" x="560879" y="5938410" linkRefId="BA-Stellingen_ArenenLink" isBlocking="false"/>
-    <stopFacility id="BA-Arenen_VolksparkStopFacility" x="559558" y="5938583" linkRefId="BA-Arenen_VolksparkLink" isBlocking="false"/>
-  
-    <stopFacility id="AB-Arenen_VolksparkStopFacility" x="559558" y="5938583" linkRefId="AB-Arenen_VolksparkLink" isBlocking="false"/>
-    <stopFacility id="AB-Stellingen_ArenenStopFacility" x="560879" y="5938410" linkRefId="AB-Stellingen_ArenenLink" isBlocking="false"/>
-    <stopFacility id="AB-SportplatzringStopFacility" x="561681" y="5938588" linkRefId="AB-SportplatzringLink" isBlocking="false"/>
-    <stopFacility id="AB-Hagenbecks_TierparkStopFacility" x="562477" y="5938643" linkRefId="AB-Hagenbecks_TierparkLink" isBlocking="false"/>
-    <stopFacility id="AB-BehrmannplatzStopFacility" x="563375" y="5939353" linkRefId="AB-BehrmannplatzLink" isBlocking="false"/>
-    <stopFacility id="AB-UKEStopFacility" x="564499" y="5938723" linkRefId="AB-UKELink" isBlocking="false"/>
-    <stopFacility id="AB-GaertnerstrasseStopFacility" x="564151" y="5937787" linkRefId="AB-GaertnerstrasseLink" isBlocking="false"/>
-    <stopFacility id="AB-HoheluftbrueckeStopFacility" x="564670" y="5937011" linkRefId="AB-HoheluftbrueckeLink" isBlocking="false"/>
-    <stopFacility id="AB-GrindelbergStopFacility" x="564799" y="5936354" linkRefId="AB-GrindelbergLink" isBlocking="false"/>
-    <stopFacility id="AB-UniversitaetStopFacility" x="564995" y="5935768" linkRefId="AB-UniversitaetLink" isBlocking="false"/>
-    <stopFacility id="AB-Stephansplatz_DammtorStopFacility" x="565531" y="5934885" linkRefId="AB-Stephansplatz_DammtorLink" isBlocking="false"/>
-    <stopFacility id="AB-JungfernstiegStopFacility" x="565765" y="5934277" linkRefId="AB-JungfernstiegLink" isBlocking="false"/>
-    <stopFacility id="AB-Hauptbahnhof_NordStopFacility" x="566654" y="5934389" linkRefId="AB-Hauptbahnhof_NordLink" isBlocking="false"/>
-    <stopFacility id="AB-St_GeorgStopFacility" x="567192" y="5935020" linkRefId="AB-St_GeorgLink" isBlocking="false"/>
-    <stopFacility id="AB-UhlenhorstStopFacility" x="567701" y="5935870" linkRefId="AB-UhlenhorstLink" isBlocking="false"/>
-    <stopFacility id="AB-BeethovenstrasseStopFacility" x="567583" y="5936810" linkRefId="AB-BeethovenstrasseLink" isBlocking="false"/>
-    <stopFacility id="AB-JarrestrasseStopFacility" x="567453" y="5937734" linkRefId="AB-JarrestrasseLink" isBlocking="false"/>
-    <stopFacility id="AB-BorgwergStopFacility" x="567169" y="5938476" linkRefId="AB-BorgwergLink" isBlocking="false"/>
-    <stopFacility id="AB-City_NordStopFacility" x="567314" y="5939747" linkRefId="AB-City_NordLink" isBlocking="false"/>
-    <stopFacility id="AB-SengelmannstrasseStopFacility" x="567616" y="5940552" linkRefId="AB-SengelmannstrasseLink" isBlocking="false"/>
-    <stopFacility id="AB-Barmbek_NordStopFacility" x="568759" y="5940450" linkRefId="AB-Barmbek_NordLink" isBlocking="false"/>
-    <stopFacility id="AB-SteilshoopStopFacility" x="570058" y="5940701" linkRefId="AB-SteilshoopLink" isBlocking="false"/>
-    <stopFacility id="AB-BramfeldStopFacility" x="571219" y="5941120" linkRefId="AB-BramfeldLink" isBlocking="false"/>
-  </transitStops>
-  
   <transitLine id="U5">
     <transitRoute id="U5_BA">
       <transportMode>pt</transportMode>
       <routeProfile>
-        <stop refId="BA-BramfeldStopFacility" departureOffset="00:00:00" arrivalOffset="00:00:30" awaitDeparture="true"/>
-        <stop refId="BA-SteilshoopStopFacility" departureOffset="00:01:30" arrivalOffset="00:02:00" awaitDeparture="true"/>
-        <stop refId="BA-Barmbek_NordStopFacility" departureOffset="00:03:00" arrivalOffset="00:03:30" awaitDeparture="true"/>
-        <stop refId="BA-SengelmannstrasseStopFacility" departureOffset="00:04:30" arrivalOffset="00:05:00" awaitDeparture="true"/>
-        <stop refId="BA-City_NordStopFacility" departureOffset="00:06:00" arrivalOffset="00:06:30" awaitDeparture="true"/>
-        <stop refId="BA-BorgwergStopFacility" departureOffset="00:07:30" arrivalOffset="00:08:00" awaitDeparture="true"/>
-        <stop refId="BA-JarrestrasseStopFacility" departureOffset="00:09:00" arrivalOffset="00:09:30" awaitDeparture="true"/>
-        <stop refId="BA-BeethovenstrasseStopFacility" departureOffset="00:10:30" arrivalOffset="00:11:00" awaitDeparture="true"/>
-        <stop refId="BA-UhlenhorstStopFacility" departureOffset="00:12:00" arrivalOffset="00:12:30" awaitDeparture="true"/>
-        <stop refId="BA-St_GeorgStopFacility" departureOffset="00:13:30" arrivalOffset="00:14:00" awaitDeparture="true"/>
-        <stop refId="BA-Hauptbahnhof_NordStopFacility" departureOffset="00:15:00" arrivalOffset="00:15:30" awaitDeparture="true"/>
-        <stop refId="BA-JungfernstiegStopFacility" departureOffset="00:16:30" arrivalOffset="00:17:00" awaitDeparture="true"/>
-        <stop refId="BA-Stephansplatz_DammtorStopFacility" departureOffset="00:18:00" arrivalOffset="00:18:30" awaitDeparture="true"/>
-        <stop refId="BA-UniversitaetStopFacility" departureOffset="00:19:30" arrivalOffset="00:20:00" awaitDeparture="true"/>
-        <stop refId="BA-GrindelbergStopFacility" departureOffset="00:21:00" arrivalOffset="00:21:30" awaitDeparture="true"/>
-        <stop refId="BA-HoheluftbrueckeStopFacility" departureOffset="00:22:30" arrivalOffset="00:23:00" awaitDeparture="true"/>
-        <stop refId="BA-GaertnerstrasseStopFacility" departureOffset="00:24:00" arrivalOffset="00:24:30" awaitDeparture="true"/>
-        <stop refId="BA-UKEStopFacility" departureOffset="00:25:30" arrivalOffset="00:26:00" awaitDeparture="true"/>
-        <stop refId="BA-BehrmannplatzStopFacility" departureOffset="00:27:00" arrivalOffset="00:27:30" awaitDeparture="true"/>
-        <stop refId="BA-Hagenbecks_TierparkStopFacility" departureOffset="00:28:30" arrivalOffset="00:29:00" awaitDeparture="true"/>
-        <stop refId="BA-SportplatzringStopFacility" departureOffset="00:30:00" arrivalOffset="00:30:30" awaitDeparture="true"/>
-        <stop refId="BA-Stellingen_ArenenStopFacility" departureOffset="00:31:30" arrivalOffset="00:32:00" awaitDeparture="true"/>
-        <stop refId="BA-Arenen_VolksparkStopFacility" departureOffset="00:33:00" arrivalOffset="00:33:30" awaitDeparture="true"/>
+        <stop refId="BA-BramfeldStopFacility" arrivalOffset="0:00:00" departureOffset="0:00:30" awaitDeparture="true"/>
+        <stop refId="BA-SteilshoopStopFacility" arrivalOffset="0:02:23" departureOffset="0:02:53" awaitDeparture="true"/>
+        <stop refId="BA-Barmbek_NordStopFacility" arrivalOffset="0:04:31" departureOffset="0:05:01" awaitDeparture="true"/>
+        <stop refId="BA-SengelmannstrasseStopFacility" arrivalOffset="0:06:14" departureOffset="0:06:44" awaitDeparture="true"/>
+        <stop refId="BA-City_NordStopFacility" arrivalOffset="0:08:33" departureOffset="0:09:03" awaitDeparture="true"/>
+        <stop refId="BA-BorgwergStopFacility" arrivalOffset="0:10:11" departureOffset="0:10:41" awaitDeparture="true"/>
+        <stop refId="BA-JarrestrasseStopFacility" arrivalOffset="0:12:01" departureOffset="0:12:31" awaitDeparture="true"/>
+        <stop refId="BA-BeethovenstrasseStopFacility" arrivalOffset="0:13:52" departureOffset="0:14:22" awaitDeparture="true"/>
+        <stop refId="BA-UhlenhorstStopFacility" arrivalOffset="0:15:47" departureOffset="0:16:17" awaitDeparture="true"/>
+        <stop refId="BA-St_GeorgStopFacility" arrivalOffset="0:17:28" departureOffset="0:17:58" awaitDeparture="true"/>
+        <stop refId="BA-Hauptbahnhof_NordStopFacility" arrivalOffset="0:19:14" departureOffset="0:19:44" awaitDeparture="true"/>
+        <stop refId="BA-JungfernstiegStopFacility" arrivalOffset="0:20:40" departureOffset="0:21:10" awaitDeparture="true"/>
+        <stop refId="BA-Stephansplatz_DammtorStopFacility" arrivalOffset="0:22:38" departureOffset="0:23:08" awaitDeparture="true"/>
+        <stop refId="BA-UniversitaetStopFacility" arrivalOffset="0:24:01" departureOffset="0:24:31" awaitDeparture="true"/>
+        <stop refId="BA-GrindelbergStopFacility" arrivalOffset="0:25:28" departureOffset="0:25:58" awaitDeparture="true"/>
+        <stop refId="BA-HoheluftbrueckeStopFacility" arrivalOffset="0:27:18" departureOffset="0:27:48" awaitDeparture="true"/>
+        <stop refId="BA-GaertnerstrasseStopFacility" arrivalOffset="0:29:13" departureOffset="0:29:43" awaitDeparture="true"/>
+        <stop refId="BA-UKEStopFacility" arrivalOffset="0:31:34" departureOffset="0:32:04" awaitDeparture="true"/>
+        <stop refId="BA-BehrmannplatzStopFacility" arrivalOffset="0:33:41" departureOffset="0:34:11" awaitDeparture="true"/>
+        <stop refId="BA-Hagenbecks_TierparkStopFacility" arrivalOffset="0:35:20" departureOffset="0:35:50" awaitDeparture="true"/>
+        <stop refId="BA-SportplatzringStopFacility" arrivalOffset="0:37:00" departureOffset="0:37:30" awaitDeparture="true"/>
+        <stop refId="BA-Stellingen_ArenenStopFacility" arrivalOffset="0:39:24" departureOffset="0:39:54" awaitDeparture="true"/>
+        <stop refId="BA-Arenen_VolksparkStopFacility" arrivalOffset="0:39:54" departureOffset="0:40:24" awaitDeparture="true"/>
       </routeProfile>
-	  <route>
-		<link refId="BA-BramfeldLink"/>
-		<link refId="BA-BramfeldNode_to_SteilshoopNode"/>
-		<link refId="BA-SteilshoopLink"/>
-		<link refId="BA-SteilshoopNode_to_Barmbek_NordNode"/>
-		<link refId="BA-Barmbek_NordLink"/>
-		<link refId="BA-Barmbek_NordNode_to_SengelmannstrasseNode"/>
-		<link refId="BA-SengelmannstrasseLink"/>
-		<link refId="BA-SengelmannstrasseNode_to_City_NordNode"/>
-		<link refId="BA-City_NordLink"/>
-		<link refId="BA-City_NordNode_to_BorgwergNode"/>
-		<link refId="BA-BorgwergLink"/>
-		<link refId="BA-BorgwergNode_to_JarrestrasseNode"/>
-		<link refId="BA-JarrestrasseLink"/>
-		<link refId="BA-JarrestrasseNode_to_BeethovenstrasseNode"/>
-		<link refId="BA-BeethovenstrasseLink"/>
-		<link refId="BA-BeethovenstrasseNode_to_UhlenhorstNode"/>
-		<link refId="BA-UhlenhorstLink"/>
-		<link refId="BA-UhlenhorstNode_to_St_GeorgNode"/>
-		<link refId="BA-St_GeorgLink"/>
-		<link refId="BA-St_GeorgNode_to_Hauptbahnhof_NordNode"/>
-		<link refId="BA-Hauptbahnhof_NordLink"/>
-		<link refId="BA-Hauptbahnhof_NordNode_to_JungfernstiegNode"/>
-		<link refId="BA-JungfernstiegLink"/>
-		<link refId="BA-JungfernstiegNode_to_Stephansplatz_DammtorNode"/>
-		<link refId="BA-Stephansplatz_DammtorLink"/>
-		<link refId="BA-Stephansplatz_DammtorNode_to_UniversitaetNode"/>
-		<link refId="BA-UniversitaetLink"/>
-		<link refId="BA-UniversitaetNode_to_GrindelbergNode"/>
-		<link refId="BA-GrindelbergLink"/>
-		<link refId="BA-GrindelbergNode_to_HoheluftbrueckeNode"/>
-		<link refId="BA-HoheluftbrueckeLink"/>
-		<link refId="BA-HoheluftbrueckeNode_to_GaertnerstrasseNode"/>
-		<link refId="BA-GaertnerstrasseLink"/>
-		<link refId="BA-GaertnerstrasseNode_to_UKENode"/>
-		<link refId="BA-UKELink"/>
-		<link refId="BA-UKENode_to_BehrmannplatzNode"/>
-		<link refId="BA-BehrmannplatzLink"/>
-		<link refId="BA-BehrmannplatzNode_to_Hagenbecks_TierparkNode"/>
-		<link refId="BA-Hagenbecks_TierparkLink"/>
-		<link refId="BA-Hagenbecks_TierparkNode_to_SportplatzringNode"/>
-		<link refId="BA-SportplatzringLink"/>
-		<link refId="BA-SportplatzringNode_to_Stellingen_ArenenNode"/>
-		<link refId="BA-Stellingen_ArenenLink"/>
-		<link refId="BA-Stellingen_ArenenNode_to_Arenen_VolksparkNode"/>
-		<link refId="BA-Arenen_VolksparkLink"/>
-		</route>
     </transitRoute>
-	
     <transitRoute id="U5_AB">
       <transportMode>pt</transportMode>
       <routeProfile>
-        <stop refId="AB-Arenen_VolksparkStopFacility" departureOffset="00:00:00" arrivalOffset="00:00:30" awaitDeparture="true"/>
-        <stop refId="AB-Stellingen_ArenenStopFacility" departureOffset="00:01:30" arrivalOffset="00:02:00" awaitDeparture="true"/>
-        <stop refId="AB-SportplatzringStopFacility" departureOffset="00:03:00" arrivalOffset="00:03:30" awaitDeparture="true"/>
-        <stop refId="AB-Hagenbecks_TierparkStopFacility" departureOffset="00:04:30" arrivalOffset="00:05:00" awaitDeparture="true"/>
-        <stop refId="AB-BehrmannplatzStopFacility" departureOffset="00:06:00" arrivalOffset="00:06:30" awaitDeparture="true"/>
-        <stop refId="AB-UKEStopFacility" departureOffset="00:07:30" arrivalOffset="00:08:00" awaitDeparture="true"/>
-        <stop refId="AB-GaertnerstrasseStopFacility" departureOffset="00:09:00" arrivalOffset="00:09:30" awaitDeparture="true"/>
-        <stop refId="AB-HoheluftbrueckeStopFacility" departureOffset="00:10:30" arrivalOffset="00:11:00" awaitDeparture="true"/>
-        <stop refId="AB-GrindelbergStopFacility" departureOffset="00:12:00" arrivalOffset="00:12:30" awaitDeparture="true"/>
-        <stop refId="AB-UniversitaetStopFacility" departureOffset="00:13:30" arrivalOffset="00:14:00" awaitDeparture="true"/>
-        <stop refId="AB-Stephansplatz_DammtorStopFacility" departureOffset="00:15:00" arrivalOffset="00:15:30" awaitDeparture="true"/>
-        <stop refId="AB-JungfernstiegStopFacility" departureOffset="00:16:30" arrivalOffset="00:17:00" awaitDeparture="true"/>
-        <stop refId="AB-Hauptbahnhof_NordStopFacility" departureOffset="00:18:00" arrivalOffset="00:18:30" awaitDeparture="true"/>
-        <stop refId="AB-St_GeorgStopFacility" departureOffset="00:19:30" arrivalOffset="00:20:00" awaitDeparture="true"/>
-        <stop refId="AB-UhlenhorstStopFacility" departureOffset="00:21:00" arrivalOffset="00:21:30" awaitDeparture="true"/>
-        <stop refId="AB-BeethovenstrasseStopFacility" departureOffset="00:22:30" arrivalOffset="00:23:00" awaitDeparture="true"/>
-        <stop refId="AB-JarrestrasseStopFacility" departureOffset="00:24:00" arrivalOffset="00:24:30" awaitDeparture="true"/>
-        <stop refId="AB-BorgwergStopFacility" departureOffset="00:25:30" arrivalOffset="00:26:00" awaitDeparture="true"/>
-        <stop refId="AB-City_NordStopFacility" departureOffset="00:27:00" arrivalOffset="00:27:30" awaitDeparture="true"/>
-        <stop refId="AB-SengelmannstrasseStopFacility" departureOffset="00:28:30" arrivalOffset="00:29:00" awaitDeparture="true"/>
-        <stop refId="AB-Barmbek_NordStopFacility" departureOffset="00:30:00" arrivalOffset="00:30:30" awaitDeparture="true"/>
-        <stop refId="AB-SteilshoopStopFacility" departureOffset="00:31:30" arrivalOffset="00:32:00" awaitDeparture="true"/>
-        <stop refId="AB-BramfeldStopFacility" departureOffset="00:33:00" arrivalOffset="00:33:30" awaitDeparture="true"/>
+        <stop refId="AB-Arenen_VolksparkStopFacility" arrivalOffset="0:00:00" departureOffset="0:00:30" awaitDeparture="true"/>
+        <stop refId="AB-Stellingen_ArenenStopFacility" arrivalOffset="0:01:40" departureOffset="0:02:10" awaitDeparture="true"/>
+        <stop refId="AB-SportplatzringStopFacility" arrivalOffset="0:03:18" departureOffset="0:03:48" awaitDeparture="true"/>
+        <stop refId="AB-Hagenbecks_TierparkStopFacility" arrivalOffset="0:05:26" departureOffset="0:05:56" awaitDeparture="true"/>
+        <stop refId="AB-BehrmannplatzStopFacility" arrivalOffset="0:07:46" departureOffset="0:08:16" awaitDeparture="true"/>
+        <stop refId="AB-UKEStopFacility" arrivalOffset="0:09:41" departureOffset="0:10:11" awaitDeparture="true"/>
+        <stop refId="AB-GaertnerstrasseStopFacility" arrivalOffset="0:11:31" departureOffset="0:12:01" awaitDeparture="true"/>
+        <stop refId="AB-HoheluftbrueckeStopFacility" arrivalOffset="0:12:58" departureOffset="0:13:28" awaitDeparture="true"/>
+        <stop refId="AB-GrindelbergStopFacility" arrivalOffset="0:14:21" departureOffset="0:14:51" awaitDeparture="true"/>
+        <stop refId="AB-UniversitaetStopFacility" arrivalOffset="0:16:19" departureOffset="0:16:49" awaitDeparture="true"/>
+        <stop refId="AB-Stephansplatz_DammtorStopFacility" arrivalOffset="0:17:45" departureOffset="0:18:15" awaitDeparture="true"/>
+        <stop refId="AB-JungfernstiegStopFacility" arrivalOffset="0:19:32" departureOffset="0:20:02" awaitDeparture="true"/>
+        <stop refId="AB-Hauptbahnhof_NordStopFacility" arrivalOffset="0:21:12" departureOffset="0:21:42" awaitDeparture="true"/>
+        <stop refId="AB-St_GeorgStopFacility" arrivalOffset="0:23:07" departureOffset="0:23:37" awaitDeparture="true"/>
+        <stop refId="AB-UhlenhorstStopFacility" arrivalOffset="0:24:58" departureOffset="0:25:28" awaitDeparture="true"/>
+        <stop refId="AB-BeethovenstrasseStopFacility" arrivalOffset="0:26:48" departureOffset="0:27:18" awaitDeparture="true"/>
+        <stop refId="AB-JarrestrasseStopFacility" arrivalOffset="0:28:26" departureOffset="0:28:56" awaitDeparture="true"/>
+        <stop refId="AB-BorgwergStopFacility" arrivalOffset="0:30:45" departureOffset="0:31:15" awaitDeparture="true"/>
+        <stop refId="AB-City_NordStopFacility" arrivalOffset="0:32:29" departureOffset="0:32:59" awaitDeparture="true"/>
+        <stop refId="AB-SengelmannstrasseStopFacility" arrivalOffset="0:34:37" departureOffset="0:35:07" awaitDeparture="true"/>
+        <stop refId="AB-Barmbek_NordStopFacility" arrivalOffset="0:37:00" departureOffset="0:37:30" awaitDeparture="true"/>
+        <stop refId="AB-SteilshoopStopFacility" arrivalOffset="0:39:15" departureOffset="0:39:45" awaitDeparture="true"/>
+        <stop refId="AB-BramfeldStopFacility" arrivalOffset="0:39:45" departureOffset="0:40:15" awaitDeparture="true"/>
       </routeProfile>
-	  <route>
-		<link refId="AB-Arenen_VolksparkLink"/>
-		<link refId="AB-Arenen_VolksparkNode_to_Stellingen_ArenenNode"/>
-		<link refId="AB-Stellingen_ArenenLink"/>
-		<link refId="AB-Stellingen_ArenenNode_to_SportplatzringNode"/>
-		<link refId="AB-SportplatzringLink"/>
-		<link refId="AB-SportplatzringNode_to_Hagenbecks_TierparkNode"/>
-		<link refId="AB-Hagenbecks_TierparkLink"/>
-		<link refId="AB-Hagenbecks_TierparkNode_to_BehrmannplatzNode"/>
-		<link refId="AB-BehrmannplatzLink"/>
-		<link refId="AB-BehrmannplatzNode_to_UKENode"/>
-		<link refId="AB-UKELink"/>
-		<link refId="AB-UKENode_to_GaertnerstrasseNode"/>
-		<link refId="AB-GaertnerstrasseLink"/>
-		<link refId="AB-GaertnerstrasseNode_to_HoheluftbrueckeNode"/>
-		<link refId="AB-HoheluftbrueckeLink"/>
-		<link refId="AB-HoheluftbrueckeNode_to_GrindelbergNode"/>
-		<link refId="AB-GrindelbergLink"/>
-		<link refId="AB-GrindelbergNode_to_UniversitaetNode"/>
-		<link refId="AB-UniversitaetLink"/>
-		<link refId="AB-UniversitaetNode_to_Stephansplatz_DammtorNode"/>
-		<link refId="AB-Stephansplatz_DammtorLink"/>
-		<link refId="AB-Stephansplatz_DammtorNode_to_JungfernstiegNode"/>
-		<link refId="AB-JungfernstiegLink"/>
-		<link refId="AB-JungfernstiegNode_to_Hauptbahnhof_NordNode"/>
-		<link refId="AB-Hauptbahnhof_NordLink"/>
-		<link refId="AB-Hauptbahnhof_NordNode_to_St_GeorgNode"/>
-		<link refId="AB-St_GeorgLink"/>
-		<link refId="AB-St_GeorgNode_to_UhlenhorstNode"/>
-		<link refId="AB-UhlenhorstLink"/>
-		<link refId="AB-UhlenhorstNode_to_BeethovenstrasseNode"/>
-		<link refId="AB-BeethovenstrasseLink"/>
-		<link refId="AB-BeethovenstrasseNode_to_JarrestrasseNode"/>
-		<link refId="AB-JarrestrasseLink"/>
-		<link refId="AB-JarrestrasseNode_to_BorgwergNode"/>
-		<link refId="AB-BorgwergLink"/>
-		<link refId="AB-BorgwergNode_to_City_NordNode"/>
-		<link refId="AB-City_NordLink"/>
-		<link refId="AB-City_NordNode_to_SengelmannstrasseNode"/>
-		<link refId="AB-SengelmannstrasseLink"/>
-		<link refId="AB-SengelmannstrasseNode_to_Barmbek_NordNode"/>
-		<link refId="AB-Barmbek_NordLink"/>
-		<link refId="AB-Barmbek_NordNode_to_SteilshoopNode"/>
-		<link refId="AB-SteilshoopLink"/>
-		<link refId="AB-SteilshoopNode_to_BramfeldNode"/>
-		<link refId="AB-BramfeldLink"/>
-		</route>
     </transitRoute>
   </transitLine>
 </transitSchedule>
